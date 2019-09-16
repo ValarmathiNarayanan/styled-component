@@ -15,7 +15,7 @@ const Input = styled.input`
 const ImputBox = () => (
   <div>
     <Input placeholder="Name" type="text" />
-    <Input value="Email" type="text" />
+    <Input placeholder="Email" type="text" />
   </div>
 )
 
