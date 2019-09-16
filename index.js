@@ -28,7 +28,7 @@ const Span = styled.p`
 const App = () => (
     <div>
       <Div>
-        <Span>Check Hover Color 💅</Span>
+        <Span>Check Hover Color 💅💅💅💅💅</Span>
       </Div>
       <Content />
       <InputBox />
