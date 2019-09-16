@@ -30,9 +30,10 @@ const App = () => (
       <Div>
         <Span>Check Hover Color 💅💅💅💅💅</Span>
       </Div>
+      <Button />
       <Content />
       <InputBox />
-      <Button />
+     
     </div>
 )
 
