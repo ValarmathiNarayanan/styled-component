@@ -1,9 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import { render } from 'react-dom';
-import HotovoBox2 from './HotovoBox2';
-import HotovoBox3 from './HotovoBox3';
-import HotovoBox4 from './HotovoBox4';
-import HotovoBox5 from './HotovoBox5';
+import Content from './Content';
+import InputBox from './InputBox';
+import Button from './Button';
 
 import styled from 'styled-components';
 
@@ -20,16 +19,15 @@ const Paragraph = styled.p`
   text-align: center;
 `;
 
-const HotovoBox = () => (
+const App = () => (
     <div>
       <Div>
-        <Paragraph>Hotovo means done 💅</Paragraph>
+        <Paragraph>Check Hover Color 💅</Paragraph>
       </Div>
-      <HotovoBox2 />
-      <HotovoBox3 />
-      <HotovoBox4 />
-      <HotovoBox5 />
+      <Content />
+      <InputBox />
+      <Button />
     </div>
 )
 
-render(<HotovoBox/>, document.getElementById('root'));
+render(<App/>, document.getElementById('root'));

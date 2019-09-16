@@ -22,7 +22,7 @@ class HotovoBox2 extends React.Component {
     return (
       <Wrapper>
         <Title>
-          styled h1
+          Styled Component
         </Title>
       </Wrapper>
     );

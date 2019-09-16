@@ -12,11 +12,11 @@ const Input = styled.input`
 `;
 
 
-const HotovoBox3 = () => (
+const ImputBox = () => (
   <div>
-    <Input placeholder="name" type="text" />
-    <Input value="email" type="text" />
+    <Input placeholder="Name" type="text" />
+    <Input value="Email" type="text" />
   </div>
 )
 
-export default HotovoBox3;
+export default ImputBox;

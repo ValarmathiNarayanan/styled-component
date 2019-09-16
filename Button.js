@@ -16,8 +16,8 @@ const Button = styled.button`
 
 const HotovoBox4 = () => (
   <div>
-    <Button>Normal</Button>
-    <Button primary>Primary</Button>
+    <Button>Normal Button</Button>
+    <Button primary>Primary Button</Button>
   </div>
 )
 
