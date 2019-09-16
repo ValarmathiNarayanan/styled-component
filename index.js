@@ -12,9 +12,15 @@ const Div = styled.div`
   &:hover {
    background-color: yellow;
  }
+ &:active {
+   background-color: blue;
+ }
+ &:onClick {
+   background-color: orange;
+ }
 `;
 
-const Paragraph = styled.p`
+const Span = styled.p`
   font-size: 15px;
   text-align: center;
 `;
@@ -22,7 +28,7 @@ const Paragraph = styled.p`
 const App = () => (
     <div>
       <Div>
-        <Paragraph>Check Hover Color 💅</Paragraph>
+        <Span>Check Hover Color 💅</Span>
       </Div>
       <Content />
       <InputBox />
